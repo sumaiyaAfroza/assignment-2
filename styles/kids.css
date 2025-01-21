@@ -23,13 +23,13 @@ body{
  .box{
     max-width: 1150px;
     margin: 0 auto;
-     /* border: 1px solid red; */
  }
+
+
  .box-f{
     max-width: 1150px;
     margin: 0 auto;
-    border: 1px solid rgb(89, 195, 244);
-
+    border: 1px solid rgba(1, 172, 253, 1);
  }
 
  .display-flex{
@@ -204,6 +204,14 @@ ul li a{
     gap: 10px;
     margin-bottom: 30px;
 }
+.aro-1 button, .aro-2 button{
+    border: none;
+    background: transparent;
+    color: white;
+}
+.aro-2 i, .aro-1 i{
+   font-size: 2rem;
+}
 
 .aro-1{
     background-color:rgba(254, 163, 1, 1);
@@ -326,7 +334,7 @@ ul li a{
 
 /* footer style */
  footer{
-    background-color:rgb(89, 195, 244) ;
+    background-color:rgba(1, 172, 253, 1);
  }
 
 .footer-container{
@@ -358,6 +366,7 @@ ul li a{
 }
 .logo-f{
     margin-bottom:35px;
+    gap: 15px;
 }
 footer ul li{
     list-style: none;
@@ -388,7 +397,6 @@ ul li{
     .school, .link, .btn{
         display: none;
     }
-
     .hide{
         display: block;
         justify-content: flex-end;
@@ -398,6 +406,10 @@ ul li{
     .nav img{
         display: flex;
         justify-content: flex-start;
+    }
+    .bottom{
+        border-bottom: 1px solid rgba(254, 163, 1, 1);
+        
     }
 
     
@@ -417,7 +429,6 @@ ul li{
         flex-direction: column;
         text-align: center;
     }
-
     .banner-title{
         font-weight: 600;
         font-size:3rem ;
@@ -451,12 +462,10 @@ ul li{
    .cards{
     grid-template-columns: repeat(2, 1fr);
    }
-
    .crd-btn-2, .crd-btn-3, .crd-btn-4, .crd-btn-5{
     font-size:.85rem ;
     padding: 15px 10px 10px 10px;
    }
-
   .cards{
     margin-left: 10px;
     margin-right: 10px;
@@ -468,15 +477,11 @@ ul li{
    }
 
    /* footer */
-
    .footer-container{
     flex-direction: column;
     margin-left:25px ;
     font-size: 1.5rem;
    }
-
-   
-
    .footer-nav{
     margin-top: 25px;
    }
