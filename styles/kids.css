@@ -233,7 +233,7 @@ ul li a{
 
 @media screen and (max-width:576px) {
     
-    .school, .link, .btn, .arow{
+    .school, .link, .btn{
         display: none;
     }
 
@@ -282,6 +282,9 @@ ul li a{
    }
    .kids{
     margin: 0 15px;
+   }
+   .arow{
+    display: none;
    }
 
 
